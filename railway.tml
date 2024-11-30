@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "./AspNetMinimalApiTemplate/Dockerfile"
+
+[deploy]
+startCommand = "dotnet AspNetMinimalApiTemplate.dll"
+restartPolicyType = "never"
